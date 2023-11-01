@@ -1,0 +1,14 @@
+query Root {
+  allFilms {
+    films {
+      characterConnection {
+        characters {
+          name
+        }
+      }
+      openingCrawl
+      episodeID
+      title
+    }
+  }
+}

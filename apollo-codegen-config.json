@@ -1,0 +1,29 @@
+{
+  "schemaNamespace" : "StarWarFilms",
+  "input" : {
+    "operationSearchPaths" : [
+      "/Users/technomac31/Documents/Charmi/WorkSpace/StarWars_Practical/Starwars_Practical/Starwars_Practical/APIManager/StarWarFilms.graphqls"
+    ],
+    "schemaSearchPaths" : [
+        "/Users/technomac31/Documents/Charmi/WorkSpace/StarWars_Practical/Starwars_Practical/Starwars_Practical/APIManager/StarWarFilms.graphql"
+    
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./StarWarFilms",
+      "moduleType" : {
+        "swiftPackageManager" : {
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}
