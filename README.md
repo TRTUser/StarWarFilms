@@ -1,48 +1,32 @@
 #   Starwars_Practical
 
----> How to run Starwars_Practical app?
+---> How to run Starwars_Practical app on simulator?
 
-To run an iOS application on a physical iOS device, you'll need to follow these steps:
+To run an iOS application on a simulator, you'll need a Mac computer with Xcode installed, as Xcode is the official integrated development environment (IDE) for iOS app development. Here are the steps to run an iOS application on the iOS simulator using Xcode:
 
-1. **Set Up Development Environment**:
-   - Make sure you have a Mac computer as Xcode, the official iOS development tool, only runs on macOS.
-   - Install Xcode from the Mac App Store. You'll need Xcode to build, deploy, and debug iOS applications.
-   - Sign in with your Apple ID in Xcode's preferences (Xcode -> Preferences -> Accounts). This is necessary for code signing and deploying to your device.
+1. **Install Xcode:**
+   If you haven't already, download and install Xcode from the Mac App Store. Xcode is available for free.
 
-2. **Connect Your iOS Device**:
-   - Connect your physical iOS device (iPhone, iPad, or iPod touch) to your Mac using a USB cable.
+2. **Open Xcode:**
+   Launch Xcode on your Mac.
 
-3. **Configure Your iOS Device**:
-   - On your iOS device, go to "Settings" -> "General" -> "Device Management" (or "Profiles & Device Management"). You should see your Apple ID, tap on it, and then tap "Trust" to trust your developer account.
+3. **Open a Project:**
+   You can open an existing iOS project (Starwars_Practical).
 
-4. **Select Your Device in Xcode**:
-   - Open your Xcode project.
-   - In the toolbar at the top of the Xcode window, select your iOS device from the list of available devices. It should appear in the "Active Scheme" menu.
+4. **Select a Simulator:**
+   In the Xcode toolbar, you will see a dropdown menu with a list of available simulators (various iPhone and iPad models). Choose the simulator you want to run your app on. If you don't see the simulator you need, you can add more in Xcode's settings (Xcode > Preferences > Components).
 
-5. **Configure Code Signing**:
-   - In your Xcode project settings, make sure that you have set the correct provisioning profile and signing certificate.
-   - Go to "Signing & Capabilities" in your project settings and ensure that a valid provisioning profile is selected.
+5. **Build and Run:**
+   Click the "Build and Run" button, which looks like a play button (▶️) located in the top left corner of the Xcode window. This will compile your project and launch the selected simulator with your app.
 
-6. **Build and Run**:
-   - Click the "Build and Run" button (a play button) in the Xcode toolbar. Xcode will compile your app and deploy it to your iOS device.
+6. **Use the Simulator:**
+   The simulator will open, and your app will start running. You can interact with the app on the simulator just like you would on a real device.
 
-7. **Unlock Your Device**:
-   - If your iOS device is locked, you'll need to unlock it using your passcode or Face ID/Touch ID.
+7. **Debug and Test:**
+   You can use Xcode's debugging tools to inspect your app, set breakpoints, and test its functionality. You can access debugging features like the console, breakpoints, and variables while the app is running on the simulator.
 
-8. **Trust Developer App**:
-   - The first time you run the app, your device will prompt you to trust the developer. Go to "Settings" -> "General" -> "Device Management" (or "Profiles & Device Management") and tap "Trust [Your Developer ID]".
-
-9. **Run Your App**:
-   - Your app should now launch on your device.
-
-10. **Debugging**:
-    - You can use Xcode's debugging features to diagnose issues and view console logs while your app is running on the device.
-
-11. **Testing and Development**:
-    - You can now use your iOS device for testing and development. Changes you make in Xcode will be reflected on the device as you continue to develop your app.
-
-Please note that you need to be a registered Apple developer to run applications on a physical device.
-
+8. **Stop the Simulator:**
+   When you're done testing, you can stop the simulator by clicking the "Stop" button in Xcode or by closing the simulator window.
 
 
 ---> FilmListView
